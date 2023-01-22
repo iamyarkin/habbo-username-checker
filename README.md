@@ -9,3 +9,10 @@ It's a simple and clear explanation of what the script does, feel free to edit i
 - The script will prompt you to select the server you want to check on.
 - Select the server you want to check on by entering one of these codes: "COM", "TR", "DE", "FR", "FI", "IT", "NL", "ES", "BR".
 - Select the text file containing the usernames you want to check.
+
+# Github Clone
+```python
+git clone https://github.com/iamyarkin/habbo-username-checker.git
+cd habbo-username-checker
+pip3 install -r requirements.txt
+py enough.py
