@@ -5,4 +5,6 @@ It's a simple and clear explanation of what the script does, feel free to edit i
 
 # Usage
 
-Markup : 1. A numbered list
+- Make sure you have Python 3 installed on your computer.
+- Item 2
+- Item 3
