@@ -26,7 +26,7 @@ print(Fore.LIGHTCYAN_EX + """
  ░  ░  ░░ ░       ░  ░  ░   ░  ░░ ░      ░  ░   
         ░                       ░               
 
-Servers: 9                 by @notyarkin
+Servers: 9                 by @iamyarkin
     """)
 
 servers = {'COM': 'https://www.habbo.com', 'TR': 'https://www.habbo.com.tr', 'DE': 'https://www.habbo.de', 'FR': 'https://www.habbo.fr', 'FI': 'https://www.habbo.fi', 'IT': 'https://www.habbo.it', 'NL': 'https://www.habbo.nl', 'ES': 'https://www.habbo.es', 'BR': 'https://www.habbo.com.br'}
