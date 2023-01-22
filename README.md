@@ -9,6 +9,8 @@ It's a simple and clear explanation of what the script does, feel free to edit i
 - The script will prompt you to select the server you want to check on.
 - Select the server you want to check on by entering one of these codes: "COM", "TR", "DE", "FR", "FI", "IT", "NL", "ES", "BR".
 - Select the text file containing the usernames you want to check.
+- The script will check the availability of each username and return the results.
+
 
 # Github Clone
 ```python
