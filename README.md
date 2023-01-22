@@ -15,4 +15,4 @@ It's a simple and clear explanation of what the script does, feel free to edit i
 git clone https://github.com/iamyarkin/habbo-username-checker.git
 cd habbo-username-checker
 pip3 install -r requirements.txt
-py enough.py
+py checker.py
