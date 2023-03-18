@@ -9,8 +9,12 @@ def check_usernames(server, usernames):
         response = requests.get(url)
         if response.status_code == 404:
             print(Fore.LIGHTGREEN_EX + f"[-] {username} is not taken")
+            with open("usernames.txt", "a", encoding="ISO-8859-9") as file:  #You might like to change encoding to UTF-8
+                file.write(f"[-] {username} is not taken\n")
         elif response.status_code == 200:
             print(Fore.LIGHTRED_EX + f"[+] {username} is taken")
+            with open("usernames.txt", "a", encoding="ISO-8859-9") as file:  #You might like to change encoding to UTF-8
+                file.write(f"[+] {username} is taken\n")
         else:
             print(Fore.LIGHTRED_EX + f"An error occurred with status code {response.status_code}")
 
